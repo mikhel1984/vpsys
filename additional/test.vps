@@ -1,0 +1,14 @@
+### Session: Mon Aug 10 21:11:46 2015
+
+&src s1: func = "sin",
+k = 2.0
+&sync s2
+s1 -> s2
+chain
+run 1, 0.1
+
+# change function
+s1: func = "rand"
+run 1...2, 0.1
+
+

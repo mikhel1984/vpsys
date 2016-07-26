@@ -1,0 +1,85 @@
+# === English ===
+# translate: Mikhel S.
+# edit:
+
+# === BASE ELEMENTS ===
+
+"tau0",     "Initial time shift"
+
+"scom_t",   "Generate elementary signals: const, k*t, sin(kt), random"
+"scom_p0",  "'const' - constant, 'lin' - linear, 'sin' - sinusoid, 'rand' - random"
+"scom_p1",  "Parameter: value for 'const', angle for 'lin', frequency for 'sin', threshold for 'rand'"
+
+"dfile_t",  "Write input data to file"
+"dfile_p0", "Output file name (screen if empty)"
+"dfile_p1", "Data delimeter"
+"dfile_p2", "Time scale step"
+
+"msum_t",   "Return summ of incomming data"
+
+"mcst_t",   "Chagne data on constant value"
+"mcst_p0",  "Operation"
+"mcst_p1",  "Constant value"
+
+"mfnc_t",   "Apply function to data stream"
+"mfnc_p0",  "Function name"
+"mfnc_p1",  "First additional argument"
+
+# === ERRORS ===
+
+"e_noerr",  "No errors"
+"e_wrtype", "Wrong data type"
+"e_dzero",  "Devide by zero"
+"e_nomem",  "No free memory"
+"e_wrarg",  "Wrong argument"
+"e_diftp",  "Different data type"
+"e_nolnk",  "No linking"
+"e_arrdif", "Different array size"
+"e_fopne",  "Can't open file"
+"e_notp",   "Such element type not exist"
+"e_wrpar",  "Wrong parameter"
+"e_fread",  "Can't to read file"
+"e_synt",   "Sintax error"
+"e_sym",    "Symantic error"
+"e_comp",   "Impossible to compare"
+"e_arrout", "Out of array range"
+"e_wrind",  "Wrong index"
+"e_memoff", "No more memory for this operation"
+"e_const",  "Constant not exist"
+"e_nover",  "Number overflow"
+"e_code",   "Wrong code"
+"e_wtf",    "Unexpected error"
+
+# === INTERFACE ===
+
+"i_gr",     "Graphs: "
+"i_gr2",    "Graph"
+"i_setgr",  "Set graph"
+"i_crgr",   "Created graph"
+"i_nogr",   "Graph not found."
+"i_done",   "Done."
+"i_typ",    "Types:"
+"i_tp2",    "Type"
+"i_addtp",  "Add type"
+"i_notp",   "No such type"
+"i_elt",    "Elements:"
+"i_addelt", "Add element"
+"i_par",    "* Parameters:"
+"i_in",     "* Input:"
+"i_out",    "* Output:"
+"i_set",    "Set"
+"i_prepch", "Prepare chain of element for computation"
+"i_texec",  "Execution time, ms"
+"i_simp",   "Simple dynamical systems modeling"
+"i_w1",     "Wellcome to"
+"i_w2",     "To exit the programm enter 'end'"
+"i_bye",    "Bye!"
+
+# other...
+
+"blk_tp", "Block is a container for other scheme elements"
+"xint_t", "Integrate incoming data"
+"xint_p0", "Type of algorithm"
+"xint_p1", "Initial value"
+"xdif_t", "Find incoming data derivative"
+"xdif_p0", "Initial value"

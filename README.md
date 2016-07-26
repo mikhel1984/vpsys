@@ -1,2 +1,2 @@
 # vpsys
-Console system for dinamical systems modelling
+Console program for dinamical systems modelling

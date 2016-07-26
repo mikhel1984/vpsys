@@ -1,0 +1,76 @@
+# === Esperanto/Esperanto ===
+# text: Mikhel S.
+# edit:
+
+# === BAZAJ ELEMENTOJ ===
+
+"tau0",     "Komenca delocigo de tempo"
+
+"scom_t",   "Kreas simplaj signaloj: const, k*t, sin(kt), stokasto"
+"scom_p0",  "'const' - konstanto, 'lin' - lineara dependenco, 'sin' - sinusoido, 'rand' - stokasto"
+"scom_p1",  "Parametro: valoro por 'const', angulo por 'lin', frekvenco por 'sin', limo por 'rand'"
+
+"dfile_t",  "Skribas ricevajn datumojn en dosiero (aǔ ekrano)"
+"dfile_p0", "Nomo de dosiero (se malplena - eneligo per ekrano)"
+"dfile_p1", "Datuma disigilo (defaǔlte - komo)"
+"dfile_p2", "Bildiga krementopaŝo de tempo"
+
+"msum_t",   "Redonas sumon de ricevajn datumojn"
+
+"mcst_t",   "Ŝangas ricevajn datumojn je konstanta valoro"
+"mcst_p0",  "Operacio"
+"mcst_p1",  "Konstanto"
+
+"mfnc_t",   "Aplikas funkcion al datuma flukso"
+"mfnc_p0",  "Nomo de funkcio"
+"mfnc_p1",  "Unua ekstra argumento"
+
+# === ERAROJ ===
+
+"e_noerr",  "Eraroj forestas"
+"e_wrtype", "Malĝusta datuma tipo"
+"e_dzero",  "Divido por nulo"
+"e_nomem",  "Komputila memoro finiĝas"
+"e_wrarg",  "Misa argumento"
+"e_diftp",  "Diversaj datumtipoj"
+"e_nolnk",  "Kunligo forestas"
+"e_nodat",  "Datumstrukturo ne troviĝas"
+"e_arrdif", "Diversaj dimensioj de masivoj"
+"e_fopne",  "Ne povas malfermi dosieron"
+"e_notp",   "Datumtipo ne ekzistas"
+"e_wrpar",  "Misa parametro"
+"e_fread",  "Ne povas legi dosieron"
+"e_synt",   "Sintaksa eraro"
+"e_sym",    "Semantika eraro"
+"e_comp",   "Komparado ne estas ebla"
+"e_arrout", "Eksterlime de masimo"
+"e_wrind",  "Misa indico"
+"e_memoff", "Meroro por operacioj mankas"
+"e_const",  "Konstanto ne definiĝas"
+"e_nover",  "Superpleniĝo la numero"
+"e_wtf",    "Incidenta eraro"
+
+# === INTERFACO ===
+
+"i_gr",     "Grafeoj:"
+"i_gr2",    "Grafeo"
+"i_setgr",  "Definiĝas grafeo"
+"i_crgr",   "Kreiĝas grafeo"
+"i_nogr",   "Grafeo ne troviĝas."
+"i_done",   "Plenumis."
+"i_typ",    "Tipoj:"
+"i_tp2",    "Tipo"
+"i_addtp",  "Aldoniĝas tipo"
+"i_notp",   "Tia tipo ne ekzistas."
+"i_elt",    "Elementoj:"
+"i_addelt", "Aldoniĝas elemento"
+"i_par",    "* Parametroj:"
+"i_in",     "* Enirejo:"
+"i_out",    "* Elirejo:"
+"i_set",    "Definiĝas"
+"i_prepch", "Preparu sekvenco da elementoj por prilaborado."
+"i_texec",  "Plenuma tempo, ms"
+"i_simp",   "Modelado da simplaj dinamikaj sistemoj"
+"i_w1",     "Bonvenon en"
+"i_w2",     "Por eliri de programo skribu 'end'"
+"i_bye",    "Ĝis revido!"
