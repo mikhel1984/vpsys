@@ -1,5 +1,5 @@
 /* Test - interface */
-#include <mcheck.h>
+/*#include <mcheck.h>*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
     /* memory control */
-    mtrace();
+    /*mtrace();*/
 
     return vp_sys(argc, argv);
 }
